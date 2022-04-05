@@ -1,0 +1,10 @@
+{
+  "system_error": "Có lỗi xảy ra! Vui lòng kiểm tra kết nối mạng hoặc thử lại sau.",
+  "timeout_error": "Hệ thống không phản hồi. Vui lòng thử lại sau.",
+  "notification": "Thông báo",
+  "accept": "Đồng ý",
+  "deny": "Từ chối",
+  "cancel": "Hủy bỏ",
+  "common_error": "Có lỗi xảy ra! Vui lòng thử lại sau.",
+  "ok": "OK"
+}

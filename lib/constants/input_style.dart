@@ -1,0 +1,3 @@
+class AppInputStyle {
+  AppInputStyle._();
+}
