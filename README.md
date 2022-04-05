@@ -1,4 +1,4 @@
-# flutter_struture
+# flutter_structure
 
 A base Flutter project.
 
