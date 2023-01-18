@@ -1,6 +1,5 @@
-import 'package:flutter_struture/constants/response_code.dart';
-
 import '../../../../constants/keys.dart';
+import '../../../../constants/response_code.dart';
 
 // Dart does not support instantiating from a generic type parameter.
 // Use a this factory to generate data as you need them.
@@ -19,7 +18,7 @@ class BaseApiResponse<T> {
 
   BaseApiResponse.fromJson(json, [InitGeneric<T>? dataFactory])
       : status = json[Keys.status],
-        data = json[Keys.data] != null
+        data = json[Keys.data] == null
             ? null
             : dataFactory == null
                 ? null

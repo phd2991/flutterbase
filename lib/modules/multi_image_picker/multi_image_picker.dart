@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_struture/constants/button_style.dart';
-import 'package:flutter_struture/data/model/remote/response/service_response.dart';
-import 'package:flutter_struture/global_widgets/full_scroll_view.dart';
-import 'package:flutter_struture/global_widgets/bottom_sheet_helper.dart';
-import 'package:flutter_struture/helpers/duration_helper.dart';
-import 'package:flutter_struture/modules/multi_image_picker/multi_image_picker_controller.dart';
 import 'package:get/get.dart';
 import 'package:photo_manager/photo_manager.dart';
 
+import '../../constants/button_style.dart';
 import '../../constants/images.dart';
+import '../../data/model/remote/response/service_response.dart';
+import '../../global_widgets/bottom_sheet_helper.dart';
+import '../../global_widgets/full_scroll_view.dart';
+import '../../helpers/duration_helper.dart';
+import 'multi_image_picker_controller.dart';
 
 class MultiImagePicker extends GetView<MultiImagePickerController> {
   const MultiImagePicker({Key? key}) : super(key: key);

@@ -1,8 +1,9 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_struture/constants/colors.dart';
 import 'package:get/get.dart';
+
+import '../constants/colors.dart';
 
 class BottomSheetHelper {
   static Future showBottomSheet({

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_struture/helpers/iterable_helper.dart';
 import 'package:get/get.dart';
 
+import '../../helpers/iterable_helper.dart';
 import 'home_controller.dart';
 
 class HomePage extends GetView<HomeController> {

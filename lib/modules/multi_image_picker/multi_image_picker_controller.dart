@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_struture/constants/button_style.dart';
-import 'package:flutter_struture/constants/response_code.dart';
-import 'package:flutter_struture/data/model/remote/response/service_response.dart';
-import 'package:flutter_struture/generated/l10n.dart';
-import 'package:flutter_struture/global_widgets/dialog_helper.dart';
-import 'package:flutter_struture/modules/multi_image_picker/multi_image_picker_config.dart';
 import 'package:get/get.dart';
 import 'package:photo_manager/photo_manager.dart';
+
+import '../../constants/button_style.dart';
+import '../../constants/response_code.dart';
+import '../../data/model/remote/response/service_response.dart';
+import '../../generated/l10n.dart';
+import '../../global_widgets/dialog_helper.dart';
+import 'multi_image_picker_config.dart';
 
 const int _itemPerPage = 60;
 

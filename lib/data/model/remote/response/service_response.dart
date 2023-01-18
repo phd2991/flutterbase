@@ -1,4 +1,4 @@
-import 'package:flutter_struture/constants/response_code.dart';
+import '../../../../constants/response_code.dart';
 
 enum ServiceStatus { loading, completed, error }
 

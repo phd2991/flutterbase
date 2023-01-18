@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_struture/constants/dimens.dart';
+
+import './dimens.dart';
 
 class AppButtonStyle {
   AppButtonStyle._();

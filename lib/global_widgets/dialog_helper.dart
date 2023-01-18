@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_struture/constants/button_style.dart';
-import 'package:flutter_struture/helpers/iterable_helper.dart';
 import 'package:get/get.dart';
 
+import '../constants/button_style.dart';
 import '../constants/images.dart';
 import '../generated/l10n.dart';
+import '../helpers/iterable_helper.dart';
 
 class DialogHelper {
   static Widget generalDialog({

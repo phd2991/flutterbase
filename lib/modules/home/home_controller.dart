@@ -1,8 +1,9 @@
-import 'package:flutter_struture/config/flavor/env.dart';
-import 'package:flutter_struture/config/routes/route_name.dart';
-import 'package:flutter_struture/modules/multi_image_picker/multi_image_picker_config.dart';
+
 import 'package:get/get.dart';
 import 'package:photo_manager/photo_manager.dart';
+
+import '../../config/routes/route_name.dart';
+import '../multi_image_picker/multi_image_picker_config.dart';
 
 class HomeController extends GetxController {
   final images = List<AssetEntity>.empty().obs;

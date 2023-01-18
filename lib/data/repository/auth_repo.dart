@@ -1,11 +1,10 @@
-import 'package:flutter_struture/constants/api_path.dart';
-import 'package:flutter_struture/data/model/local/authen_data.dart';
-import 'package:flutter_struture/data/model/remote/response/base_api_response.dart';
-import 'package:flutter_struture/data/model/remote/response/service_response.dart';
-import 'package:flutter_struture/data/provider/http_client.dart';
-import 'package:flutter_struture/data/provider/local_storage.dart';
-
+import '../../constants/api_path.dart';
 import '../../constants/keys.dart';
+import '../model/local/authen_data.dart';
+import '../model/remote/response/base_api_response.dart';
+import '../model/remote/response/service_response.dart';
+import '../provider/http_client.dart';
+import '../provider/local_storage.dart';
 
 class AuthRepo {
   final HttpClient apiClient;
